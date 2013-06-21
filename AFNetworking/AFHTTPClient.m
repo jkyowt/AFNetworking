@@ -460,6 +460,7 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
             }
         }
     }
+    NSLog(@"request url :%@",url);
     
 	return request;
 }
